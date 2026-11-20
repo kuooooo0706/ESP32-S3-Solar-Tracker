@@ -232,6 +232,8 @@ void loop() {
 
   unsigned long currentMillis = millis();
 
+  Serial.println("hello");
+
   // 每 30 秒檢查 Wi-Fi
   if (currentMillis - lastWiFiCheck >=
       WIFI_INTERVAL) {
